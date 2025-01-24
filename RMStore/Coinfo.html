@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMStore</title>
+    <link rel="stylesheet" href="Coinfo.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><img src="photo/l1.jpg" alt="real madrid" class="imaage"></li>
+                <li><img src="photo/l2.jpg" alt="champions" class="imaage"></li>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="products.html">PRODUITS</a></li>
+                <li><a href="about.html">A PROPOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav>
+        <form action="index.html">
+        <div class="container">
+            <div class="form-group">
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="h2 X text-center text-white">ENTREZ VOS INORMATIONS :</div>
+                    </div>
+                    <div class="col-4">
+                        <label for="identifiant"><i class="bi bi-house"></i></label>
+                        <input type="text" name="identifiant" id="identifiant" class="form-control" placeholder="Votre nom" required >
+                    </div>
+                    <div class="col-4">
+                        <label for="prenom"><i class="bi bi-person"></i></label>
+                        <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Votre prénom" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="nom"><i class="bi bi-people"></i></label>
+                        <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre taille : exp : M l..." required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <label for="email"><i class="bi bi-envelope"></i></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email@gmail.com" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="date"><i class="bi bi-cake2"></i></label>
+                        <input type="date" name="date" id="date" class="form-control">
+                    </div>
+                    <div class="col-4">
+                        <label><i class="bi bi-gender-male"></i></label><br>
+                        <input type="radio" name="genre" id="homme" value="homme" required>
+                        <label for="homme" style="color: white;">Homme</label>
+                        <input type="radio" name="genre" id="femme" value="femme">
+                        <label for="femme" style="color: white;">Femme</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <label for="adresse"><i class="bi bi-house"></i></label>
+                        <input type="text" name="adresse" id="adresse" class="form-control" placeholder=" saisir Votre adresse" required>
+                    </div>
+                    <div class="col-4">
+                        <label for="select"><i class="bi bi-globe-americas"></i></label>
+                        <select name="select" id="select" class="form-control" required>
+                            <option value="">MAROC</option>
+                            <option value="">FRANCE</option>
+                            <option value="">ESPAGNE</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="password"></label>
+                        <input type="text" name="text" id="password" class="form-control" placeholder="coupon">
+                    </div>
+                    <div class="col-6">
+                        <label for="confirm-password"><i class="bi bi-arrow-clockwise"></i></label>
+                        <input type="text" name="text" id="confirm-password" class="form-control" placeholder="rentrez le coupon">
+                    </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <button type="submit" class="btn btn-primary">VALIDER</button>
+                    </div>
+                    <div class="col-lg-4">
+                       <button type="reset" class="btn btn-danger">ABANDONNER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </nav>
+</body>
+</html>
